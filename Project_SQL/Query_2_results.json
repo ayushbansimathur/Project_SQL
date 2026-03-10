@@ -1,39 +1,3 @@
-/*
-1.Which jobs in my field offer the highest salaries?
-2.What skills are needed for those highest-paying roles?
-3.Which skills are most in demand for my role?
-4.Which skills are associated with the highest salaries in my role?
-5.Which skills should I learn first for the best career return?
-    a. Best option: skills that are both high in demand and high paying
-*/
-
-WITH top_paying_jobs AS (
-    SELECT
-        job_id,
-        job_title_short,
-        c.name AS company_name,
-        salary_year_avg
-    FROM job_postings_fact AS j
-    LEFT JOIN company_dim AS c ON j.company_id = c.company_id
-    WHERE
-        job_title_short = 'Data Analyst' AND
-        job_location = 'Anywhere' AND
-        salary_year_avg IS NOT NULL
-    ORDER BY
-        salary_year_avg DESC
-    LIMIT 10
-    )
-
-SELECT
-    top_paying_jobs.*,
-    skills_dim.skills
-FROM top_paying_jobs
-JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id 
-JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
-ORDER BY salary_year_avg DESC 
-
-
-/*
 [
   {
     "job_id": 552322,
@@ -498,4 +462,3 @@ ORDER BY salary_year_avg DESC
     "skills": "r"
   }
 ]
-*/

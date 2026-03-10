@@ -1,3 +1,12 @@
+/*
+1.Which jobs in my field offer the highest salaries?
+2.What skills are needed for those highest-paying roles?
+3.Which skills are most in demand for my role?
+4.Which skills are associated with the highest salaries in my role?
+5.Which skills should I learn first for the best career return?
+    a. Best option: skills that are both high in demand and high paying
+*/
+
 SELECT
     job_id,
     job_title_short,
