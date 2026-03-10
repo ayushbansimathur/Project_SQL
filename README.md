@@ -69,7 +69,7 @@ The results show that remote Data Analyst roles can reach very high salary level
 A strong pattern here is that the highest end of the market is not evenly distributed. Mantys is a major outlier, while most of the remaining top-paying roles fall into a narrower range between about `$184,000` and `$336,500`. This suggests that while elite remote Data Analyst roles do exist, extremely high salaries are rare and should be interpreted carefully. For job seekers, the practical takeaway is that remote Data Analyst positions can be financially attractive, especially at companies that value strong analytical and technical capability.
 
 ### Horizontal Bar Graph
-![alt text](image.png)
+![Top Paying Remote Data Analyst Roles](Project_SQL/assets/q1.png)
 
 ## 2. What skills are required for the highest-paying Data Analyst jobs?
 
@@ -121,7 +121,7 @@ The results show that `SQL` is the most consistently required skill across the h
 Another important pattern is that many of these top-paying roles go beyond basic analytics tools. Skills such as `Azure`, `AWS`, `Databricks`, `Snowflake`, `PySpark`, and `GitLab` suggest that some of the best-paying Data Analyst jobs overlap with data engineering, cloud platforms, and modern analytics infrastructure. This means that the highest compensation is often tied to broader technical range, not just dashboarding or spreadsheet work.
 
 ### Horizontal Bar Graph
-![alt text](image-1.png)
+![Most Common Skills In Top Paying Datan Analyst Roles](Project_SQL/assets/q2.png)
 
 ## 3. Which skills are most in demand for Data Analyst roles?
 
@@ -166,7 +166,7 @@ The results show that `SQL` is by far the most in-demand skill for remote Data A
 Behind SQL, the next most requested skills are `Excel`, `Python`, `Tableau`, and `Power BI`. This shows that employers are looking for a blend of spreadsheet analysis, programming, and data visualization skills. In other words, strong Data Analysts are expected not only to extract and manipulate data, but also to analyze it, communicate it clearly, and support decision-making through reporting tools.
 
 ### Horizontal Bar Graph
-![alt text](image-2.png)
+![Most In-Demand Skills For Data Analyst Roles](Project_SQL/assets/q3.png)
 
 ## 4. Which skills are associated with the highest salaries in Data Analyst roles?
 
@@ -212,7 +212,7 @@ The results show that `PySpark` is associated with the highest average salary at
 This suggests that the highest salaries in Data Analyst roles are often connected to more advanced technical capabilities. While foundational tools like SQL, Excel, and Tableau are essential for entering and growing in the field, premium salaries tend to appear in roles that overlap with data engineering, machine learning, and platform-oriented analytics work. In other words, the more a Data Analyst can operate beyond basic reporting and into scalable data systems, the greater the earning potential.
 
 ### Horizontal Bar Graph
-![alt text](image-3.png)
+![Top Paying Skills](Project_SQL/assets/q4.png)
 
 ## 5. Which skills should I learn first for the best career return?
 
@@ -292,7 +292,7 @@ The results show that `PySpark` stands out as the strongest skill overall, combi
 Another important takeaway is that many of the best-return skills go beyond traditional dashboarding and reporting. While tools like SQL, Excel, Tableau, and Power BI are essential for core Data Analyst work, this query shows that skills tied to data engineering, cloud systems, and machine learning workflows tend to provide stronger long-term career upside. This means that once the fundamentals are in place, expanding into tools like `PySpark`, `Databricks`, `Airflow`, and `GCP` can provide better returns in both job opportunities and salary growth.
 
 ### Horizontal Bar Graph
-![alt text](image-4.png)
+![Best Skills For Career Return In Data Analyst Roles ](Project_SQL/assets/q5.png)
 
 # What I Learned
 
